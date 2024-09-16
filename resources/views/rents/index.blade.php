@@ -7,7 +7,7 @@
             <h3>
                 - IT 기기 대여 서비스 -
             </h3>
-            <a class="btn hero-btn mt-50" href="#">서비스 신청하기</a>
+            <a class="btn hero-btn mt-50" href="create">서비스 신청하기</a>
         </div>
     </div>
 </div>

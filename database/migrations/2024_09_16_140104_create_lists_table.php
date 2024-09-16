@@ -11,14 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('rents', function (Blueprint $table) {
+        Schema::create('lists', function (Blueprint $table) {
             $table->id();
-            $table->string('rent_service_name');
-            $table->string('hex_address');
+            $table->string('grade');
+            $table->string('class');
+            $table->string('device_name');
+            $table->string('name');
+            $table->foreignId('rent_id')->constrained();
+            $table->string('status')->default(0);
             $table->timestamps();
         });
-
-        
     }
 
     /**
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('rents');
+        Schema::dropIfExists('lists');
     }
 };
