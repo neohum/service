@@ -2176,16 +2176,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "683130c2ff8c2739f4822ff7ac5c873ec529abd1"
+                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/683130c2ff8c2739f4822ff7ac5c873ec529abd1",
-                "reference": "683130c2ff8c2739f4822ff7ac5c873ec529abd1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
+                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
                 "shasum": ""
             },
             "require": {
@@ -2228,9 +2228,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.2.0"
             },
-            "time": "2024-07-01T20:03:41+00:00"
+            "time": "2024-09-15T16:40:33+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -5744,16 +5744,16 @@
         },
         {
             "name": "fly-apps/dockerfile-laravel",
-            "version": "1.0.4",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fly-apps/dockerfile-laravel.git",
-                "reference": "92207a36260ab62633fb21da787df89232b5ab25"
+                "reference": "d2fabbac41e468a67825b08d140c404596922cf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fly-apps/dockerfile-laravel/zipball/92207a36260ab62633fb21da787df89232b5ab25",
-                "reference": "92207a36260ab62633fb21da787df89232b5ab25",
+                "url": "https://api.github.com/repos/fly-apps/dockerfile-laravel/zipball/d2fabbac41e468a67825b08d140c404596922cf9",
+                "reference": "d2fabbac41e468a67825b08d140c404596922cf9",
                 "shasum": ""
             },
             "require-dev": {
@@ -5806,9 +5806,9 @@
             ],
             "support": {
                 "issues": "https://github.com/fly-apps/dockerfile-laravel/issues",
-                "source": "https://github.com/fly-apps/dockerfile-laravel/tree/1.0.4"
+                "source": "https://github.com/fly-apps/dockerfile-laravel/tree/1.0.6"
             },
-            "time": "2024-04-02T15:45:58+00:00"
+            "time": "2024-07-26T20:08:41+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",

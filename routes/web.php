@@ -1,20 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\RentController;
 use App\Http\Controllers\ListsController;
+use App\Http\Controllers\RentController;
 
-Route::resource('rents', RentController::class)->names([
-    'index' => 'rents.index',
-    'create' => 'rents.create',
-    'store' => 'rents.store',
-    'show' => 'rents.show',
-    'edit' => 'rents.edit',
-    'update' => 'rents.update',
-    'destroy' => 'rents.destroy',
-    
 
-]);
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/create', function () {
+    return view('create');
+});
+
+Route::post('/store', [RentController::class, 'store'])->name('store');
 
 Route::resource('lists', ListsController::class)->names([
     'index' => 'lists.index',
