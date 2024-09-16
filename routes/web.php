@@ -2,13 +2,31 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RentController;
+use App\Http\Controllers\ListsController;
 
-Route::group(['prefix' => 'rents'], function () {
-    Route::get('/', [RentController::class, 'index']);
-    Route::get('create', [RentController::class, 'create']);
-    Route::post('store', [RentController::class, 'store']);
-    Route::get('show/{rent}', [RentController::class, 'show']);
-    Route::get('edit/{rent}', [RentController::class, 'edit']);
-    Route::put('update/{rent}', [RentController::class, 'update']);
-    Route::delete('delete/{rent}', [RentController::class, 'destroy']);
-});
+Route::resource('rents', RentController::class)->names([
+    'index' => 'rents.index',
+    'create' => 'rents.create',
+    'store' => 'rents.store',
+    'show' => 'rents.show',
+    'edit' => 'rents.edit',
+    'update' => 'rents.update',
+    'destroy' => 'rents.destroy',
+    
+
+]);
+
+Route::resource('lists', ListsController::class)->names([
+    'index' => 'lists.index',
+    'create' => 'lists.create',
+    'store' => 'lists.store',
+    'show' => 'lists.show',
+    'edit' => 'lists.edit',
+    'update' => 'lists.update',
+    'destroy' => 'lists.destroy',
+
+
+
+]);
+
+

@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Rent extends Model
+class Lists extends Model
 {
     use HasFactory;
-    protected $fillable = ['rent_service_name', 'hex_address'];
+    protected $fillable = ['grade', 'class', 'device_name', 'name', 'rent_id'];
 }
