@@ -13,7 +13,7 @@ class ListsController extends Controller
     public function show($hex)
     {
         $rent = Rent::where('hex_address', $hex)->firstOrFail();
-        $lists = Lists::where('rent_id', $rent->id)->orderBy('id', 'desc')->take(10)->get();
+        $lists = Lists::where('rent_id', $rent->id)->orderBy('id', 'desc')->take(5)->get();
 
 
         return view('lists.show')->with('rent', $rent)->with('lists', $lists);
