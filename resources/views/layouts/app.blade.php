@@ -37,33 +37,102 @@
         </div>
     </div>
 
-<!-- slider_area_start -->
-<div class="hero-area bg-img bg-overlay" style="background-image: url({{ Vite::asset('resources/img/banner/8.jpg')}});">
-    <div class="container h-100">
 
 
-    </div>
-</div>
+ <!-- footer start -->
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="footer_widget">
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+
+                        </h3>
+                        <ul>
 
 
-    <!-- footer start -->
-    <footer class="footer">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="footer_widget">
 
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
 
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="copy_right text-center">
-                            All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i>
-                            by <a href="#" target="_blank">Theme-zome</a>
-                        </p>
+                        </h3>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"> </a></li>
+                            <li><a href="#">  </a></li>
+                            <li><a href="#"> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newsLetter_wrap">
+                <div class="row justify-content-between">
+                    <div class="col-md-7">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+
+                            </h3>
+                            <form action="#" class="newsletter_form">
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+
+                            </h3>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                    <li>
+                                       
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end  -->
     <!-- footer end  -->
 
     <!-- JS here -->
