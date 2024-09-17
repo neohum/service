@@ -9,55 +9,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ Vite::asset('resources/img/favicon.png')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('resources/img/favicon.png')}}">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/themify-icons.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/gijgo.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/animate.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/slicknav.css')}}">
-    <link rel="stylesheet" href="{{ Vite::asset('resources/css/style.css')}}">
-    <!-- <link rel="stylesheet" href="{{ Vite::asset('resources/css/responsive.css')}}"> -->
+    @vite('resources/css/bootstrap.min.css')
+    @vite('resources/css/owl.carousel.min.css')
+    @vite('resources/css/magnific-popup.css')
+    @vite('resources/css/font-awesome.min.css')
+    @vite('resources/css/themify-icons.css')
+    @vite('resources/css/nice-select.css')
+    @vite('resources/css/flaticon.css')
+    @vite('resources/css/gijgo.css')
+    @vite('resources/css/animate.css')
+    @vite('resources/css/slicknav.css')
+    @vite('resources/css/style.css')
+    <!-- @vite('resources/css/responsive.css') -->
 </head>
 
 <body>
 
 
-    <!-- slider_area_start -->
-    <div class="hero-area bg-img bg-overlay" style="background-image: url({{ Vite::asset('resources/img/banner/8.jpg')}});">
-        <div class="container h-100">
-
-            @yield('content')
-        </div>
-    </div>
 
 
 
  <!-- footer start -->
-<footer class="footer">
+<footer class="p-4 footer">
+  @yield('content')
     <div class="footer_top">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-sm-6 col-lg-3">
+                 
                     <div class="footer_widget">
 
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-3">
                     <div class="footer_widget">
-                        <h3 class="footer_title">
-
-                        </h3>
-                        <ul>
-
-
-                        </ul>
+                       
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-6 col-lg-3">
@@ -136,26 +125,26 @@
     <!-- footer end  -->
 
     <!-- JS here -->
-    <script src="{{ Vite::asset('resources/js/vendor/modernizr-3.5.0.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/vendor/jquery-1.12.4.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/popper.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/bootstrap.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/owl.carousel.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/ajax-form.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/waypoints.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/scrollIt.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/jquery.scrollUp.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/wow.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/nice-select.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/jquery.slicknav.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/plugins.js')}}"></script>
-    <script src="{{ Vite::asset('resources/js/gijgo.min.js')}}"></script>
+    @vite('resources/js/vendor/modernizr-3.5.0.min.js')
+    @vite('resources/js/vendor/jquery-1.12.4.min.js')
+    @vite('resources/js/popper.min.js')
+    @vite('resources/js/bootstrap.min.js')
+    @vite('resources/js/owl.carousel.min.js')
+    @vite('resources/js/isotope.pkgd.min.js')
+    @vite('resources/js/ajax-form.js')
+    @vite('resources/js/waypoints.min.js')
+    @vite('resources/js/jquery.counterup.min.js')
+    @vite('resources/js/imagesloaded.pkgd.min.js')
+    @vite('resources/js/scrollIt.js')
+    @vite('resources/js/jquery.scrollUp.min.js')
+    @vite('resources/js/wow.min.js')
+    @vite('resources/js/nice-select.min.js')
+    @vite('resources/js/jquery.slicknav.min.js')
+    @vite('resources/js/jquery.magnific-popup.min.js')
+    @vite('resources/js/plugins.js')
+    @vite('resources/js/gijgo.min.js')
 
-    <script src="{{ Vite::asset('resources/js/main.js')}}"></script>
+    @vite('resources/js/main.js')
 
 </body>
 
