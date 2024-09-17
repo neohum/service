@@ -9,24 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('resources/img/favicon.png')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/favicon.png')}}" />
 
     <!-- CSS here -->
-    @vite('resources/css/bootstrap.min.css')
-    @vite('resources/css/owl.carousel.min.css')
-    @vite('resources/css/magnific-popup.css')
-    @vite('resources/css/font-awesome.min.css')
-    @vite('resources/css/themify-icons.css')
-    @vite('resources/css/nice-select.css')
-    @vite('resources/css/flaticon.css')
-    @vite('resources/css/gijgo.css')
-    @vite('resources/css/animate.css')
-    @vite('resources/css/slicknav.css')
-    @vite('resources/css/style.css')
-    <!-- @vite('resources/css/responsive.css') -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/owl.carousel.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/magnific-popup.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/font-awesome.min.cs"')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/themify-icons.cs"')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/nice-select.cs"')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/flaticon.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/gijgo.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/animate.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/slicknav.css')}}" />
+   <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css')}}" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/css/responsive.css')}}" /> -->
 </head>
 
 <body>
+<br>
+<br>
 
 
 
@@ -125,26 +127,25 @@
     <!-- footer end  -->
 
     <!-- JS here -->
-    @vite('resources/js/vendor/modernizr-3.5.0.min.js')
-    @vite('resources/js/vendor/jquery-1.12.4.min.js')
-    @vite('resources/js/popper.min.js')
-    @vite('resources/js/bootstrap.min.js')
-    @vite('resources/js/owl.carousel.min.js')
-    @vite('resources/js/isotope.pkgd.min.js')
-    @vite('resources/js/ajax-form.js')
-    @vite('resources/js/waypoints.min.js')
-    @vite('resources/js/jquery.counterup.min.js')
-    @vite('resources/js/imagesloaded.pkgd.min.js')
-    @vite('resources/js/scrollIt.js')
-    @vite('resources/js/jquery.scrollUp.min.js')
-    @vite('resources/js/wow.min.js')
-    @vite('resources/js/nice-select.min.js')
-    @vite('resources/js/jquery.slicknav.min.js')
-    @vite('resources/js/jquery.magnific-popup.min.js')
-    @vite('resources/js/plugins.js')
-    @vite('resources/js/gijgo.min.js')
+    <script  href="{{ asset('js/vendor/modernizr-.5.0.min.js"')}}" />
+    <script  href="{{ asset('js/vendor/jquery-1.12.4min.js"')}}" />
+    <script  href="{{ asset('js/popper.min.js')}}" />
+    <script  href="{{ asset('js/bootstrap.min.js')}}" />
+    <script  href="{{ asset('js/owl.carousel.minjs"')}}" />
+    <script  href="{{ asset('js/isotope.pkgd.min.js')}}" />
+    <script  href="{{ asset('js/ajax-form.js')}}" />
+    <script  href="{{ asset('js/waypoints.min.js')}}" />
+    <script  href="{{ asset('js/jquery.counteru.min.js"')}}" />
+    <script  href="{{ asset('js/imagesloaded.pkgd.min.js')}}" />
+    <script  href="{{ asset('js/scrollIt.js')}}" />
+    <script  href="{{ asset('js/jquery.scrollUp.min.js')}}" />
+    <script  href="{{ asset('js/wow.min.js')}}" />
+    <script  href="{{ asset('js/nice-select.min.js')}}" />
+    <script  href="{{ asset('js/jquery.slickna.min.js"')}}" />
+    <script  href="{{ asset('js/jquery.magnific-opup.min.js"')}} />
+    <script  href="{{ asset('js/plugins.js"')}} />
+    <script  href="{{ asset('js/gijgo.min.js"')}}" />
 
-    @vite('resources/js/main.js')
 
 </body>
 
